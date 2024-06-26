@@ -1,7 +1,7 @@
 let calculo1 
 let calculo2
 
-console.log('digitar dois valores para calcular o MMC e o MDC');
+console.log('digitar dois valores númericos para calcular o MMC e o MDC');
 
 process.stdin.on("data", function(data) {
     let input = +data.toString().trim()
